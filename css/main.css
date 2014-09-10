@@ -20,50 +20,70 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+.body {
+    margin: 0;
+    padding: 0;
     background-color: #C0C0C0;
 }
 
-img {
-  display: block;
-  width: 100%;
+.img {
+    display: block;
+    width: 100%;
     margin: 0;
     padding: 0;
-    
 }
 
-figure {
+.figure {
     margin: 0;
     padding: 0;
     position: relative;
 }
 
 .figcaption {
-   position: absolute;
-    bottom: .5rem;
+    position: absolute;
+    bottom: 0;
     color: #fff;
-    margin: 1rem;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.3);
+    font-family: serif; 
+    font-style: italic;
 }
 
 .list {
-    display: inline-block;
-    width: 7rem;
-    border-left-color: 1rem; 
+    padding: 1rem;
+    width: 33.333%;
+    float: left;
+    border-right: 1px solid #ccc;
+    font-size: .75rem; 
+    font-weight: bold;
+}
+
+.list:last-child {
+    border: 0;
 }
 
 .listtitle {
     color: #C0C0C0;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: .90rem;
+    font-weight: normal;
 }
 
-main {
+.main {
     margin: 0;
     border-radius: .5rem;
     background-color: white;
+    overflow: hidden;
 }
 
 .info {
-    margin: 1rem;
+    margin: 1rem;   
 }
+
+.steg {
+    font-size: 1.5rem; 
+}
+

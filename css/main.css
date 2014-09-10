@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+    background-color: #C0C0C0;
 }
 
 img {
@@ -30,4 +31,39 @@ img {
   width: 100%;
     margin: 0;
     padding: 0;
+    
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.figcaption {
+   position: absolute;
+    bottom: .5rem;
+    color: #fff;
+    margin: 1rem;
+}
+
+.list {
+    display: inline-block;
+    width: 7rem;
+    border-left-color: 1rem; 
+}
+
+.listtitle {
+    color: #C0C0C0;
+    text-transform: capitalize;
+}
+
+main {
+    margin: 0;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+.info {
+    margin: 1rem;
 }
